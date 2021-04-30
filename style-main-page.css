@@ -1,0 +1,73 @@
+body {
+	font-family: Calibri, Optima, sans-serif;
+	line-height: 1.1;
+	background-color: 000;
+	background-image: url(images/back_photo_msk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.navbar-nav {
+	margin-right: 30px;
+}
+
+.page_block {
+	text-align: center;
+	box-shadow: 2px 5px 10px 0px rgb(34, 60, 80);
+}
+
+@media screen and (min-width: 1200px) {
+.page_block {	height: 100vh; }
+}
+
+section {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px; 	height: 35vh;
+	margin: 10px; 	padding: 10px;
+	text-align: center;
+	box-shadow: 2px 5px 10px 0px rgb(34, 60, 80);
+}
+
+.section_left {
+	animation: fadeInLeft;
+	animation-duration: 0.5s;
+}
+
+.section_right {
+ 	animation: fadeInRight;
+  animation-duration: 0.5s; 
+}
+
+img {
+	float: left; margin: 0 0;
+	width: 200px; border-radius: 10px;
+	box-shadow: 2px 5px 10px 0px rgb(34, 60, 80);
+}
+
+p {
+	margin-left: 220px;
+}
+
+h3 {
+	padding-top: 10px;
+}
+
+#nav_go_up {
+	position: fixed; bottom:0; right: 0;
+	width: 5%; height: 5%;
+}
+
+#block_contact {
+	text-align: center;
+	display: flex;
+  justify-content: center;
+}
+
+.contact_img {
+	box-shadow: none;
+	width: 50px;
+	margin: 10px 100px;
+}
