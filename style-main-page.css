@@ -39,13 +39,15 @@ section {
 	animation: fadeInRight;  animation-duration: 1s; 
 }
 
-img {
+.imgForWork {
 	float: left; margin: 0 0;
 	width: 200px; border-radius: 10px;
+	filter: grayscale(80%);
 }
 
-img:hover {
+.imgForWork:hover {
 	box-shadow: 0px 0px 8px 4px rgb(200, 200, 200);
+	filter: saturate(200%);
 }
 
 p {
@@ -91,8 +93,8 @@ h4 {
 }
 
 .contact_img:hover {
-	transform: rotate(-12deg);
-	transition: all 0.5s;
+	transform: rotate(-372deg);
+	transition: all 0.3s;
 }
 
 .project_text {
